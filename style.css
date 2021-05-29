@@ -287,9 +287,9 @@ ul.styled li a:hover {
 }
 
 
-/* =====GALLERY===== */
+/* =====VEHICLES===== */
 
-#gallery img {
+#vehicle-list img {
     height: 200px;
     width: 280px;
     margin: 16px;
@@ -301,14 +301,14 @@ ul.styled li a:hover {
     -o-transition: -o-transform 0.5s ease-in;
 }
 
-#gallery img:hover {
+#vehicle-list img:hover {
     border: 4px solid #363636;
     -moz-transform: scale(3);
     -webkit-transform: scale(3);
     -o-transform: scale(3);
 }
 
-#gallery p {
+#vehicle-list p {
     font-size: 12px;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -317,7 +317,7 @@ ul.styled li a:hover {
     margin-left: 35%;
 }
 
-#gallery h3 {
+#vehicle-list h3 {
     border-bottom: 1px solid #363636;
 }
 
@@ -331,6 +331,11 @@ ul.styled li a:hover {
 #info h4 {
     text-align: center;
     color: #333333;
+}
+
+#info p {
+    clear: both;
+    margin-left: 2%;
 }
 
 #info p b {
